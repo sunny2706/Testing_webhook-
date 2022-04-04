@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #Objective 4: Port Scan Using NMAP 
-
+import time
+import csv
 import subprocess as sp
 
 IP_address_scan = "nmap -sP 10.201.23.110/24"
