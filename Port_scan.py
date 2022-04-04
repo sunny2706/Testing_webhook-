@@ -2,6 +2,7 @@
 #Objective 4: Port Scan Using NMAP 
 import time
 import csv
+import pandas as pd
 import subprocess as sp
 
 IP_address_scan = "nmap -sP 10.201.23.110/24"
